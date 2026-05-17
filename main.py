@@ -9,7 +9,7 @@ api_hash = 'cd1f27e05accf4d4dc93f3189eeb9a9a'
 client = TelegramClient('session', api_id, api_hash)
 
 async def main():
-    keywords = ['越南', '猪肉', '越南猪肉']
+    keywords = ['越南猪肉']
     
     for keyword in keywords:
         # 搜索频道和群组
