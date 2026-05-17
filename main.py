@@ -1,7 +1,7 @@
 from telethon import TelegramClient
 from telethon.tl.functions.contacts import SearchRequest
 
-api_id = '33308378'
+api_id = 33308378
 api_hash = 'cd1f27e05accf4d4dc93f3189eeb9a9a'
 
 client = TelegramClient('session', api_id, api_hash)
